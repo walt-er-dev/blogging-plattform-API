@@ -1,0 +1,39 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@eslint/css": "^0.7.0",
+    "@eslint/js": "^9.25.1",
+    "@eslint/json": "^0.12.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0",
+    "standard": "^17.1.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "zod": "^3.24.3"
+  },
+  "name": "blogging-plattform-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./blogging-plattform-api/src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walt-er-dev/blogging-plattform-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walt-er-dev/blogging-plattform-API/issues"
+  },
+  "homepage": "https://github.com/walt-er-dev/blogging-plattform-API#readme",
+  "description": "",
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
